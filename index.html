@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/app-logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/icons/icon-192x192.png">
+    <!-- title -->
+    <title>Shopping List</title>
+    <!-- meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1c8adb"/>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery.js"></script>
+    <!-- manifest -->
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <img src="/img/img-main.gif" alt="main image" class="">
+        <form action="" autocomplete="off">
+            <input type="text" name="itemName" id="" placeholder="Bread" required>
+            <button class="">Add to Cart</button>
+        </form>
+        <ul class="cart-list">
+        </ul>
+        <span class="modal-toggler">?</span>
+    </div>
+
+    
+    <div class="my-modal">
+        <div class="modal-body">
+            <span class="modal-close">✖</span>
+            <h2 align="center">Learn How To Use App</h2>
+            <h3>Add item to shopping list</h3>
+            <ol>
+                <li>Enter item name into text field.</li>
+                <li>Press "Add to Cart" button.</li>
+            </ol>
+            <h3>Remove item from shopping list</h3>
+            <ol>
+                <li>Do "Dubble Click" on cart item.</li>
+            </ol>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="/js/app.js"></script>
+    <script src="/sw.js"></script>
+</body>
+
+</html>

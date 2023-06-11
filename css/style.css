@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body{
+    background-color: #E5E5E5;
+    font-family: cursive;
+}
+
+button, input{
+    font-family: monospace;
+}
+
+.container{
+    max-width: 575px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.container img{
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.container form input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    background-color: #b3b3b3;
+    color: #333333;
+}
+.container form input:focus{
+    outline: 4px solid #616161;
+}
+
+
+.container form button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 21px;
+    background-color: #8B5D33;
+    color: #ffedbc;
+}
+.container form button:active{
+    outline: 4px solid #be8a5e;
+}
+
+
+.cart-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.cart-list li{
+    background-color: #b3b3b3;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 21px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px 0px #b3b3b3;
+    color: #333333;
+}
+
+.cart-list li:hover{
+    background-color: #5c5c5c;
+    color: #E5E5E5;
+}
+
+
+
+
+/* 
+    modal
+*/
+
+
+
+
+.modal-toggler{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    color: #E5E5E5;
+    top: 15px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.my-modal{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #E5E5E5;
+    max-width: 575px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modal-body{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    line-height: 2;
+    list-style-position: inside;
+}
+
+.modal-close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    color: #E5E5E5;
+    top: 15px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}

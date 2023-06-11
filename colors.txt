@@ -1,0 +1,13 @@
+# these colors i use in my app
+
+--primary-100:#8B5D33;
+--primary-200:#be8a5e;
+--primary-300:#ffedbc;
+--accent-100:#BFBFBF;
+--accent-200:#616161;
+--text-100:#333333;
+--text-200:#5c5c5c;
+--bg-100:#E5E5E5;
+--bg-200:#dbdbdb;
+--bg-300:#b3b3b3;
+      
